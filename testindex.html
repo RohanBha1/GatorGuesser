@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Random Street View Game</title>
+    <style>
+        /* Ensure the Street View fills the window. Adjust as needed. */
+        #street-view { height: 100vh; width: 100%; }
+    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+</head>
+<body>
+    <div class="map-container">
+        <div class="search-bar">
+            <input id="location-search" type="text" placeholder="Guess your location">
+        </div>
+        <div id="street-view"></div>
+    </div>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9-wBilJVYkPhfK6Vr2fX2wZiqFPzs0NE&callback=initMap&libraries=places,geometry">
+    </script>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+.map-container {
+    position: relative;
+    /* Ensure the map container has a defined height and width */
+    height: 100vh; /* Example height */
+    width: 100%; /* Example width */
+  }
+  
+  .search-bar {
+    position: absolute;
+    top: 10px; /* Adjust based on your preference */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10; /* Ensure it overlays on the map */
+  }
+  
+  .search-bar input {
+    border: 2px solid #ddd; /* Example border */
+    border-radius: 10px; /* Creates beveled edges */
+    padding: 8px 12px;
+    width: 300px; /* Adjust based on your preference */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* Optional: Adds a subtle shadow for depth */
+    outline: none;
+  }
+  
+  .search-bar input:focus {
+    border-color: #aaa; /* Changes border color on focus */
+  }
+  

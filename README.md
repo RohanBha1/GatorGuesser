@@ -10,7 +10,7 @@ GatorGuesser is an interactive web-based game that drops players at a random loc
 4. **Winning and Losing**:
    - If your guess is within 50 feet (approximately 15 meters) of the actual location, you win the round!
    - If your guess is incorrect, you lose a life. The game gives you three lives to use for guessing. If all lives are lost, the game will reveal the closest place to the actual location and its distance from your last guess.
-5. **Restart the Game**: Refresh the page or click a "Restart" button (if implemented) to start a new game.
+5. **Restart the Game**: Refresh the page to start a new game.
 
 ## Setup Instructions
 1. **Clone the Repository**: Clone this repository to your local machine using `git clone https://github.com/RohanBha1/GatorGuesser.git`.
